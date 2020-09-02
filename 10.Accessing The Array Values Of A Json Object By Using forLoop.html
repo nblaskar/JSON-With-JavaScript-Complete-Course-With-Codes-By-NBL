@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSON</title>
+  </head>
+  <body>
+    <p>Accessing The Array Values Of A Json Object By Using for  Loop</p>
+    <div id="mydiv">
+	
+	</div>
+    <script>	
+		var obj = { 
+			"name": "Raj Shing",
+			"mobile": 7002429375,
+			"courses":["PHP","ANDROID","REACT"]
+
+			};
+	
+		var i,x="";
+		for(i=0;i<obj.courses.length;i++)
+		{
+			 x+=obj.courses[i]+"<br>";
+		}	  
+	  document.getElementById("mydiv").innerHTML=x;
+	 
+	  
+    </script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "Name": "Raj Shing",
+  "marks": 78,
+  "date": "2020-05-14",
+  "course": ["DART", "KOTLIN", "FLATUR"],
+  "Address": {
+    "city": "NDLS",
+    "Area": "Anand Vihar",
+    "Pin": "34434",
+    "lon": 80.2323,
+    "lat": 45.5454
+  },
+  "married": false,
+  "dod": null
+}

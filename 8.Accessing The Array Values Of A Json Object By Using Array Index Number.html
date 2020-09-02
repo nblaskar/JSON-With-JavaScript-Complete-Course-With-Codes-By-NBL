@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSON</title>
+  </head>
+  <body>
+    <p>Accessing The Array Values Of A Json Object By Using Array Index Number</p>
+    <div id="mydiv">
+	
+	</div>
+    <script>
+		var obj = { 
+			"name": "Raj Shing",
+			"mobile": "7002429375",
+			"course":["PHP","ANDROID","REACT"]
+			};
+		var c1=obj.course[0];	  
+		var c2=obj.course[1];	  
+		var c3=obj.course[2];	  
+		document.getElementById("mydiv").innerHTML=c1+", "+c2+", "+c3;
+	 
+	  
+    </script>
+  </body>
+</html>

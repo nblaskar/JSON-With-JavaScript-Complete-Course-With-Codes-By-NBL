@@ -1,0 +1,11 @@
+{
+  "Name": "Raj Shing",
+  "Mobile": "7002429375",
+  "city": "LKO",
+  "course": ["React", "vue", "Node"],
+  "Address": {
+    "Area": "Sonapur",
+    "Pin": "788119",
+    "dist": "Cachar"
+  }
+}

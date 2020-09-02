@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSON</title>
+  </head>
+  <body>
+    <p>Accessing JSON Nested Object values Using for/in Loop</p>
+    <div id="mydiv">
+	
+	</div>
+    <script>
+      var obj = { 
+			"name": "Raj Shing",
+			"mobile": "7002429375",
+			"courses":{
+				"course1":"PHP",
+				"course2":"ANDROID",
+				"course3":".NET"
+			}
+
+			};
+	
+		var obj,i,x="";
+		for(i in obj.courses)
+		{
+			x+=obj.courses[i]+"<br>";
+		}	  
+	  document.getElementById("mydiv").innerHTML=x;
+	 
+	  
+    </script>
+  </body>
+</html>

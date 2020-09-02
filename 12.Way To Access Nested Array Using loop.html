@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSON</title>
+  </head>
+  <body>
+    <div id="mydiv">
+	
+	</div>
+    <script>	
+		var i,j,x="";
+		var obj = { 
+			"name": "Raj Shing",
+			"courses":[
+				{"catname":"Web Developer","cname":["PHP","Node","Django"]},
+				{"catname":"App Developer","cname":["Anndroid","Flutter","Dart"]},
+				{"catname":"Digital Marketing","cname":["SEO","SEM","MSO"]}
+			]
+
+			};
+		for(i in obj.courses)   
+		{
+			x+="<h2>"+obj.courses[i].catname+"</h2>";
+			for(j in obj.courses[i].cname)
+			{
+				x+=obj.courses[i].cname[j]+"<br>";
+			}
+		}
+		document.getElementById("mydiv").innerHTML=x;
+	
+	  
+    </script>
+  </body>
+</html>
